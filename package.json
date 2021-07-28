@@ -1,0 +1,16 @@
+{
+  "name": "easy-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "rd /s/q .\\easy-project && node index.js",
+    "push":"yarn publish"
+  },
+  "author": "jiantong",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "inquirer": "^8.1.2"
+  }
+}
