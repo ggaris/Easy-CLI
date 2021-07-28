@@ -1,12 +1,19 @@
 {
-  "name": "easy-cli",
-  "version": "0.0.1",
+  "name": "node-ecli",
+  "version": "0.0.2",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "test": "rd /s/q .\\easy-project && node index.js",
-    "push":"yarn publish"
+    "push": "yarn publish"
   },
+  "keywords": [
+    "Node.js",
+    "Koa",
+    "Koa-router",
+    "Koa-static",
+    "server"
+  ],
   "author": "jiantong",
   "license": "MIT",
   "dependencies": {
