@@ -8,7 +8,25 @@ const r = await inquirer
     type:'input',
     name:'packageName',
     default:'easy-project',
-    message:'set package name👉'
+    message:'set package name：👉'
+  },
+  {
+    type:'list',
+    name:'frame',
+    message:'Select the back-end framework Koa or Express：❓',
+    choices:[
+      {name:'Koa'},
+      {name:'Express'}
+    ]
+  },
+  {
+    type:'checkbox',
+    name:'midd',
+    message:'Choose your middleware：🛫',
+    choices:[
+      {name:'router'},
+      {name:'static'}
+    ]
   }
 ])
 
